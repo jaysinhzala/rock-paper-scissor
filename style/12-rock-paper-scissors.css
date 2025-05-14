@@ -1,0 +1,71 @@
+body {
+    font-family: Arial;
+    background-color: black;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.rock-button {
+    padding: 28px 28px 28px 28px;
+    border-radius: 60px;
+    margin-right: 8px;
+    border-width: 3px;
+    border-color: white;
+    background-color: black;
+    border-style: solid;
+}
+
+.move-icon
+{
+    height: 50px;
+}
+
+.paper-button{
+    padding: 28px 28px 28px 28px;
+    border-radius: 60px;
+    margin-right: 8px;
+    border-width: 3px;
+    border-color: white;
+    background-color: black;
+    border-style: solid;
+}
+
+.scissor-button{
+    padding: 28px 28px 28px 28px;
+    border-radius: 60px;
+    border-width: 3px;
+    border-color: white;
+    background-color: black;
+    border-style: solid;
+}
+
+.result{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 50px;
+    color: white;
+}
+
+.score{
+    margin-top: 50px;
+    color: white;
+}
+
+.move{
+    color: white;
+}
+
+.reset-button,
+.auto-play-button{
+    color:black;
+    padding: 8px 15px 8px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
